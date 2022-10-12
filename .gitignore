@@ -1,0 +1,12 @@
+.cache
+compile_commands.json
+.vscode/*
+!.vscode/settings.json
+
+ex00/*
+!ex00/Makefile
+!ex00/main.cpp
+!ex00/Zombie.hpp
+!ex00/Zombie.cpp
+!ex00/newZombie.cpp
+!ex00/randomChump.cpp

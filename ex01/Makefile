@@ -1,5 +1,5 @@
 NAME = Moar_brainz
-OBJS = main.o Zombie.o zombieHorde.cpp
+OBJS = main.o Zombie.o zombieHorde.o
 
 CXXFLAGS = $(CPPFLAGS) -Wall -Wextra -Werror
 

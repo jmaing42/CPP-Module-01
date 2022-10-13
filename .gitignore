@@ -10,3 +10,10 @@ ex00/*
 !ex00/Zombie.cpp
 !ex00/newZombie.cpp
 !ex00/randomChump.cpp
+
+ex01/*
+!ex01/Makefile
+!ex01/Main.cpp
+!ex01/Zombie.hpp
+!ex01/Zombie.cpp
+!ex01/zombieHorde.cpp

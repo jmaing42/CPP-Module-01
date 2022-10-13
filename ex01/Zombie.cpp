@@ -16,5 +16,5 @@ Zombie &Zombie::operator=(const Zombie &copy) {
 }
 
 void Zombie::announce(void) {
-  std::cout << this->name << ": " EX02_ZOMBIE_HPP_MESSAGE << std::endl;
+  std::cout << this->name << ": " EX01_ZOMBIE_HPP_MESSAGE << std::endl;
 }

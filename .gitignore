@@ -21,3 +21,13 @@ ex01/*
 ex02/*
 !ex02/Makefile
 !ex02/main.cpp
+
+ex03/*
+!ex03/Makefile
+!ex03/main.cpp
+!ex03/Weapon.hpp
+!ex03/Weapon.cpp
+!ex03/HumanA.hpp
+!ex03/HumanA.cpp
+!ex03/HumanB.hpp
+!ex03/HumanB.cpp

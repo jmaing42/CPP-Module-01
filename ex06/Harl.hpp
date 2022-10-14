@@ -1,5 +1,5 @@
-#ifndef EX05_HARL_HPP_INCLUDED
-#define EX05_HARL_HPP_INCLUDED
+#ifndef EX06_HARL_HPP_INCLUDED
+#define EX06_HARL_HPP_INCLUDED
 
 #include <string>
 

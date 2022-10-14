@@ -13,7 +13,7 @@ int replace(std::string filename, std::string s1, std::string s2) {
   f1.close();
   std::string original = buffer.str();
   std::string result = "";
-  size_t current_position = 0;
+  std::size_t current_position = 0;
   while (current_position < original.length()) {
     if (current_position + s1.length() <= original.length() &&
         original.substr(current_position, s1.length()) == s1) {

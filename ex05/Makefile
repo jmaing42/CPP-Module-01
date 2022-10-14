@@ -1,4 +1,4 @@
-NAME = Harl
+NAME = harl
 OBJS = main.o Harl.o
 
 CXXFLAGS = $(CPPFLAGS) -Wall -Wextra -Werror

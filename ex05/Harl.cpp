@@ -27,18 +27,17 @@ void Harl::error() {
             << std::endl;
 }
 
-class HarlTuple {
-public:
+struct HarlTuple {
   void (Harl::*func)();
   std::string level;
 };
 
 void Harl::complain(std::string level) {
   const HarlTuple entries[] = {
-      {&Harl::debug, "debug"},
-      {&Harl::info, "info"},
-      {&Harl::warn, "warn"},
-      {&Harl::error, "error"},
+      {&Harl::debug, "DEBUG"},
+      {&Harl::info, "INFO"},
+      {&Harl::warn, "WARN"},
+      {&Harl::error, "ERROR"},
   };
 
   void (Harl::*func)() = &Harl::verbose;

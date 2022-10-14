@@ -31,3 +31,7 @@ ex03/*
 !ex03/HumanA.cpp
 !ex03/HumanB.hpp
 !ex03/HumanB.cpp
+
+ex04/*
+!ex04/Makefile
+!ex04/main.cpp

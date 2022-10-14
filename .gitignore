@@ -41,3 +41,9 @@ ex05/*
 !ex05/main.cpp
 !ex05/Harl.hpp
 !ex05/Harl.cpp
+
+ex06/*
+!ex06/Makefile
+!ex06/main.cpp
+!ex06/Harl.hpp
+!ex06/Harl.cpp

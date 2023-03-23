@@ -1,7 +1,7 @@
 NAME = HI_THIS_IS_BRAIN
 OBJS = main.o
 
-CXXFLAGS = $(CPPFLAGS) -Wall -Wextra -Werror
+CXXFLAGS = -Wall -Wextra -Werror
 
 
 all: $(NAME)
@@ -23,7 +23,7 @@ re:
 
 
 .cpp.o:
-	$(CXX) $(CXXFLAGS) -c $<
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $<
 
 $(NAME): $(OBJS)
 	$(CXX) $(LDFLAGS) -o $@ $^

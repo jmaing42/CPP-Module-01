@@ -1,7 +1,7 @@
 NAME = BraiiiiiiinnnzzzZ
 OBJS = main.o Zombie.o newZombie.o randomChump.o
 
-CXXFLAGS = $(CPPFLAGS) -Wall -Wextra -Werror
+CXXFLAGS = -Wall -Wextra -Werror
 
 
 all: $(NAME)
@@ -23,7 +23,7 @@ re:
 
 
 .cpp.o:
-	$(CXX) $(CXXFLAGS) -c $<
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $<
 
 $(NAME): $(OBJS)
 	$(CXX) $(LDFLAGS) -o $@ $^

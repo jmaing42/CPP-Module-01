@@ -10,7 +10,7 @@ Zombie *zombieHorde(int N, std::string name) {
       zombies[i] = initial;
     }
     return zombies;
-  } catch (std::exception &e) {
+  } catch (const std::exception &e) {
     delete[] zombies;
     throw e;
   }

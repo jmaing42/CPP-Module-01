@@ -41,7 +41,7 @@ void Harl::complain(std::string level) {
   };
 
   void (Harl::*func)() = &Harl::verbose;
-  for (std::size_t i = 0; i < 4; i++)
+  for (std::size_t i = 0; i < sizeof(entries) / sizeof(entries[0]); i++)
     if (level == entries[i].level)
       func = entries[i].func;
   (this->*func)();

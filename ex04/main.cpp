@@ -4,7 +4,8 @@
 #include <sstream>
 #include <string>
 
-int replace(std::string filename, std::string s1, std::string s2) {
+static int replace(const std::string &filename, const std::string &s1,
+                   const std::string &s2) {
   std::ifstream f1(filename);
   if (!f1.is_open())
     return EXIT_FAILURE;

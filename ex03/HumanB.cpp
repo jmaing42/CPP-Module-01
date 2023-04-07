@@ -23,6 +23,10 @@ HumanB &HumanB::operator=(const HumanB &copy) {
 }
 
 void HumanB::attack() const {
+  if (!this->weapon) {
+    std::cout << this->name << " has no weapon!" << std::endl;
+    return;
+  }
   std::cout << this->name << " attacks with their " << this->weapon->getType()
             << std::endl;
 }

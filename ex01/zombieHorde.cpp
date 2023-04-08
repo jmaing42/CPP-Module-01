@@ -14,4 +14,5 @@ Zombie *zombieHorde(int N, std::string name) {
     delete[] zombies;
     throw e;
   }
+  delete[] zombies;
 }

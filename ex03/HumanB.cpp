@@ -1,10 +1,11 @@
 #include "HumanB.hpp"
 
+#include <cstddef>
 #include <iostream>
 
 #include "Weapon.hpp"
 
-HumanB::HumanB(std::string name) : name(name), weapon(nullptr) {
+HumanB::HumanB(std::string name) : name(name), weapon(NULL) {
   std::cout << "HumanB " << this->name << " is created." << std::endl;
 }
 HumanB::HumanB(std::string name, Weapon &weapon) : name(name), weapon(&weapon) {
